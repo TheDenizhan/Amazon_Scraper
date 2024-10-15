@@ -1,8 +1,8 @@
 # Amazon Scraper
+
 <div style="text-align: center;">
-<img src="amazon_scraping_icon.jpeg" alt="Açıklama" height="300" width="500"/>
-
-
+    <img src="amazon_scraping_icon.jpeg" alt="Açıklama" height="300" width="500"/>
+</div>
 
 Bu uygulama, Amazon ürün verilerini HTML dosyalarından çıkararak JSON formatında kaydetmek için tasarlanmıştır. Kullanıcı dostu bir grafik arayüz (GUI) sunarak dört aşamada veri işleme sürecini yönetir.
 
@@ -10,7 +10,6 @@ Bu uygulama, Amazon ürün verilerini HTML dosyalarından çıkararak JSON forma
 
 Uygulama, gerekli Python kütüphanelerini otomatik olarak yükleyecek şekilde derlenmiştir, bu nedenle kullanıcıların kütüphaneleri manuel olarak yüklemeleri gerekmez.
 
-</div>
 ## Uygulamanın Çalıştırılması
 
 1. **Uygulamayı İndirin**: Uygulamanın `.exe` dosyasını bilgisayarınıza indirin.
@@ -40,9 +39,6 @@ Uygulama, gerekli Python kütüphanelerini otomatik olarak yükleyecek şekilde 
         <img src="amazon_scraping_app.png" alt="Aşama 1 Görseli" width="200" style="border: 1px solid #ccc; border-radius: 5px;"/>
     </div>
 </div>
-
-
-  
 
 4. **Veri İşlemi**:
    - Aşama 1 için gerekli HTML dosyalarını `htmlfiles` klasörüne yükleyin.
