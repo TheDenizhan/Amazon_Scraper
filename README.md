@@ -21,24 +21,17 @@ Uygulama, gerekli Python kütüphanelerini otomatik olarak yükleyecek şekilde 
      - `all_amazon_products_html`: Ürün detaylarının indirileceği klasör.
    - Gerekirse bu klasörleri manuel olarak oluşturun veya uygulama ilk çalıştığında otomatik olarak oluşturmasını bekleyin.
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <div style="flex: 2; margin-right: 20px;">
-        <h3>3. Çalıştırma:</h3>
-        <p>
-            - `.exe` dosyasına çift tıklayarak uygulamayı başlatın.<br>
-            - Uygulama açıldığında, GUI (grafik kullanıcı arayüzü) ekranı göreceksiniz. Burada dört aşama göreceksiniz:
-        </p>
-        <ul>
-            <li><strong>Aşama 1:</strong> Ürün verilerinin çıkarılması</li>
-            <li><strong>Aşama 2:</strong> Ürün detaylarının indirilmesi</li>
-            <li><strong>Aşama 3:</strong> Detaylı ürün bilgilerinin çıkarılması</li>
-            <li><strong>Aşama 4:</strong> Veri birleştirme</li>
-        </ul>
-    </div>
-    <div style="flex: 1; text-align: center;">
-        <img src="amazon_scraping_app.png" alt="Aşama 1 Görseli" width="200" style="border: 1px solid #ccc; border-radius: 5px;"/>
-    </div>
-</div>
+## Çalıştırma
+
+3. **Uygulamayı Başlatın**:
+   - `.exe` dosyasına çift tıklayarak uygulamayı başlatın.
+   - Uygulama açıldığında, GUI (grafik kullanıcı arayüzü) ekranını göreceksiniz. Burada dört aşama göreceksiniz:
+     - **Aşama 1**: Ürün verilerinin çıkarılması
+     - **Aşama 2**: Ürün detaylarının indirilmesi
+     - **Aşama 3**: Detaylı ürün bilgilerinin çıkarılması
+     - **Aşama 4**: Veri birleştirme
+
+![Aşama 1 Görseli](amazon_scraping_app.png)
 
 4. **Veri İşlemi**:
    - Aşama 1 için gerekli HTML dosyalarını `htmlfiles` klasörüne yükleyin.
